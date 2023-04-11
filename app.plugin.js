@@ -1,8 +1,8 @@
-import {
+const {
   AndroidConfig,
   withInfoPlist,
   withEntitlementsPlist,
-} from 'expo/config-plugins';
+} = require('@expo/config-plugins');
 
 const NFC_READER = 'Interact with nearby NFC devices';
 
